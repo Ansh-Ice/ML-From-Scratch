@@ -79,3 +79,69 @@ w·x + b = -1
 ### 5. Support Vectors
 
 Support vectors are the points:
+
+These are the only points that define the decision boundary.
+
+---
+
+## 📉 Visualization
+
+The model visualizes:
+
+- Data points (2 classes)
+- Decision boundary
+- Margin lines
+- Support vectors
+
+---
+
+## 🔍 Key Observations
+
+- Only a few points (support vectors) influence the model
+- Increasing `λ` → wider margin, more tolerance
+- Decreasing `λ` → tighter fit, less tolerance
+- Batch Gradient Descent gives smoother convergence than SGD
+
+---
+
+## 🧪 Results
+
+The model successfully:
+- Separates the two classes
+- Learns a maximum-margin boundary
+- Identifies correct support vectors
+
+---
+
+## 📌 Key Learnings
+
+- SVM is a **geometric algorithm**, not just a classifier
+- Margin maximization improves generalization
+- Not all points matter — only the hardest ones do
+- Optimization stability (learning rate, normalization) is crucial
+
+---
+
+## 🚀 Future Improvements
+
+- Implement Kernel SVM (RBF, Polynomial)
+- Compare with Logistic Regression
+- Extend to multi-class classification
+
+---
+
+## 🛠️ Tech Stack
+
+- Python
+- NumPy
+- Matplotlib
+
+---
+
+## 📎 Conclusion
+
+This project builds intuition for how SVM works internally, beyond library abstractions.
+
+> Understanding the optimization and geometry behind SVM is far more valuable than just using it.
+
+---
